@@ -1,0 +1,16 @@
+Floats
+bill = 31.56
+
+BooLean or true/false
+x = true
+y = false
+(== is evaluation)
+if x == true:
+
+x = 10
+if x == 10:
+    print("x is 10")
+else:
+ print ("x is not 10")
+
+x.append sends to the back of the string
