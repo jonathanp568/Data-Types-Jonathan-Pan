@@ -8,10 +8,22 @@
 #     print(i)
 # print(values[7])
 
-temp = 75
-if temp > 68:
-    print('warm')
-elif temp == 68:
-    print('perfect')
+x = input("input number")
+x = int(x)
+if x % 2 == 0:
+    print("even")
 else:
-    print('cold')
+    print("odd")
+
+# bill = input("How was the service?")
+# if bill == "bad":
+#     print("0% tip")
+# elif bill == "good":
+#     print("20% tip")
+# elif bill == "okay":
+#     print("15% tip")
+# elif bill == "great":
+#     print("25% tip")
+
+x
+
