@@ -8,22 +8,30 @@
 #     print(i)
 # print(values[7])
 
-x = input("input number")
-x = int(x)
-if x % 2 == 0:
-    print("even")
-else:
-    print("odd")
+# x = input("input number")
+# x = int(x)
+# if x % 2 == 0:
+#     print("even")
+# else:
+#     print("odd")
+bill = input("What was the bill?")
+tip = input("How was the service?")
+bill = int(bill)
+if tip == "bad":
+    print(bill)
+elif tip == "good":
+    print(bill * 1.15)
+elif tip == "okay":
+    print(bill * 1.20)
+elif tip == "great":
+    print(bill * 1.25)
 
-# bill = input("How was the service?")
-# if bill == "bad":
-#     print("0% tip")
-# elif bill == "good":
-#     print("20% tip")
-# elif bill == "okay":
-#     print("15% tip")
-# elif bill == "great":
-#     print("25% tip")
-
-x
-
+# x = input("input number")
+# x = int(x)
+# y = 1
+# for i in range(x):
+#     if x % y == 0:
+#         print (y)
+#         y += 1
+#     else:
+#         y += 1
