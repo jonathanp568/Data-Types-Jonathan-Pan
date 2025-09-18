@@ -8,23 +8,28 @@
 #     print(i)
 # print(values[7])
 
+x = input("type sentence")
+y = x.split()
+print(y)
+
 # x = input("input number")
 # x = int(x)
 # if x % 2 == 0:
 #     print("even")
 # else:
 #     print("odd")
-bill = input("What was the bill?")
-tip = input("How was the service?")
-bill = int(bill)
-if tip == "bad":
-    print(bill)
-elif tip == "good":
-    print(bill * 1.15)
-elif tip == "okay":
-    print(bill * 1.20)
-elif tip == "great":
-    print(bill * 1.25)
+
+# bill = input("What was the bill?")
+# tip = input("How was the service?")
+# bill = int(bill)
+# if tip == "bad":
+#     print(bill)
+# elif tip == "good":
+#     print(bill * 1.15)
+# elif tip == "okay":
+#     print(bill * 1.20)
+# elif tip == "great":
+#     print(bill * 1.25)
 
 # x = input("input number")
 # x = int(x)
@@ -35,3 +40,16 @@ elif tip == "great":
 #         y += 1
 #     else:
 #         y += 1
+
+# x = input("input number")
+# y = input("input second number")
+# x = int(x)
+# y = int(y)
+# z = x+y
+# for i in range (z):
+#     if x % z == 0 and y % z == 0:
+#         print(z)
+#         break
+#     else:
+#         z -= 1
+
