@@ -8,9 +8,9 @@
 #     print(i)
 # print(values[7])
 
-x = input("type sentence")
-y = x.split()
-print(y)
+# x = input("input sentence")
+# y = len(x.split())
+# print(y)
 
 # x = input("input number")
 # x = int(x)
@@ -53,3 +53,9 @@ print(y)
 #     else:
 #         z -= 1
 
+bill = input("What was the bill?")
+tip = input("What's the tip amount?")
+bill = float(bill)
+tip = float(tip)
+totalamount = bill * tip
+print(totalamount)
